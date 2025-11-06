@@ -1,2 +1,2 @@
 main:
-	g++ main.cpp -o app
+	g++ main.cpp -g -o app 
