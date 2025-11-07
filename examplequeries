@@ -1,0 +1,10 @@
+not( not( and( impl( not( A ) B ) C ) ) )
+¬¬(¬A -> B n C)
+turns into:
+(A u B) n C
+
+
+impl( not( not( not( B ) ) ) impl( A and( not( B ) not( C ) ) ) )
+¬¬¬B -> A -> ¬B n ¬ C
+turns into: 
+(¬A u ¬B u B) n (¬A u ¬C u B)
